@@ -1,0 +1,175 @@
+*, html, body {
+    padding: 0px;
+    margin:0px;
+    justify-content: center;
+
+
+}
+
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* BAGIAN BODY UTAMA */
+
+.bar {
+    margin-top: 48%;
+}
+
+.blog>li {
+    margin: 20px;
+}
+ 
+.blog {
+    list-style-type: none;
+    align-items: center;
+    font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 90px;
+    background-color: none;
+    border-color: none;
+    border: 10px;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+ opacity : 80%;
+  
+/* BAGIAN MENU */
+  
+}
+
+
+.play1:hover {
+    color: rgb(0, 109, 42);
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgba(245, 245, 245, 0.63);
+    padding: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.play1 {
+    color: white;
+}
+
+
+
+
+/* SEARCH BOX */
+
+.search-box {
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(63, 63, 19);
+    padding: 10px 10px;
+    display: flex;
+    opacity: 50%;
+    margin-bottom: 100px;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: rgb(63, 63, 19);
+    font-display: white;
+    
+    
+}
+
+.mag {
+    color: white;
+    margin-left: 100px;
+
+}
+
+
+.placeholder {
+    color: white
+}
+
+/* BAGIAN WALLPAPPER */
+
+
+
+.mon3 {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+
+    /* BUAT HP BIASA */
+}
+
+@media screen and (min-width:0px) and (max-width:440px) {
+    .bar {
+        margin-top: 140%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:440px) {
+    .blog>li {
+        margin: 10px;
+    }
+}
+
+/* BUAT TABLET */
+
+@media screen and (min-width:760px) and (max-width:884px) {
+    .bar {
+        margin-top: 100%;
+        position: static;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:8884px) {
+    .blog>li {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+
+/* BUAT PC */
+
+@media screen and (min-width:900px) and (max-width:1280px) {
+    .blog>li {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:1280px) {
+    .bar {
+        margin-top: 46%;
+    }
+    
+}
+
+
+@media screen and (min-width:1289px) and (max-width:2800px) {
+    .search-box {
+        padding: 20px;
+    }
+
+    .blog>li {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 1289px) and (max-width:2800px) {
+    .bar {
+        margin-top: 40%;
+    }
+    
+}
